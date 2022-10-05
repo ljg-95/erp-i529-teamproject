@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="kr" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p th:text = "${user.empno}"></p>
+    <p th:text = "${user.name}"></p>
+    <p th:text = "${user.usertype}"></p>
+    <a href="/dologout" class="btn btn-lg btn-primary" methods="get">logout</a>
+</body>
+</html>
